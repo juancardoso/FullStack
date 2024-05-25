@@ -5,11 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body style="margin: 0;">
+<div id="page-header"></div>
 <div style="width: 100vw; height: 1117px; position: relative; background: white;">
   <div id="header"></div>
   <div class="grid-cursos"><!--style="width: 1661px; height: 607px; left: 33px; top: 284px; position: absolute"-->
@@ -31,8 +31,5 @@
 </html>
 
 <script>
-
-$(function(){
-        $("#header").load("header.html"); 
-      })
+$("#page-header").load('page-header.html');
 </script>
