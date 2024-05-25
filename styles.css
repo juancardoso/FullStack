@@ -28,17 +28,37 @@
     word-wrap: break-word
 }
 
+.content {
+    width: 100vw;
+    padding: 10px;
+    position: relative;
+    background: white;
+}
+
 .grid-cursos {
     width: 100vw;
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 383px);
+    grid-template-columns: repeat(auto-fit, 383px);
+    gap: 20px;
 }
 
 .card {
-    width: 383px;
+    width: 100%;
     height: 256px;
     background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+
+.card-dados {
+    width: 100%;
+    display: inline-flex; 
+    justify-content: space-around;
 }
