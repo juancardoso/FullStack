@@ -12,6 +12,13 @@ use CodeIgniter\Model;
 //     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE
 //     CURRENT_TIMESTAMP
 //     );
+
+// CREATE TABLE aulasassistidas (
+//     idAula INT(11) NOT NULL,
+//     idAluno INT(11) NOT NULL,
+//     data TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE
+//     CURRENT_TIMESTAMP
+//     );
     
 
 class UserDataModel extends Model {
