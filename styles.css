@@ -60,7 +60,7 @@ transform: scale(1.05);
     justify-content: space-around;
 }
 
-.body-login{
+.body-login, .body-cadastro {
     background-color: #2D9BF0;
 }
 
@@ -73,8 +73,7 @@ transform: scale(1.05);
     top: 50%;
 }
 
-.form-login{
-    height: 520px;
+.form-login, .form-cadastro {
     width: 400px;
     background-color: white;
     position: absolute;
@@ -110,7 +109,7 @@ label{
     font-weight: 500;
 }
 
-.input-login{
+.input-login, .input-cadastro {
     display: block;
     height: 50px;
     width: 100%;
