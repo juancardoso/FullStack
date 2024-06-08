@@ -1,1 +1,1 @@
-JUAN CARDOSO!
+<img src='<?php echo $qrCode ?>' width='200' height='200' >

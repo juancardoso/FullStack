@@ -145,7 +145,6 @@ button{
     height: 35px;
     border-radius: 10px;
     border-color: #2D9BF0;
-    background: url("search.svg") no-repeat right;
     background-size: 20px;
 }
 

@@ -608,3 +608,357 @@ in APPPATH\Controllers\Login.php on line 36.
  8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2024-06-08 18:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-06-08 18:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:07:32 --> Error: Class "App\Controllers\QRCode" not found
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:10:53 --> Error: Class "chillerlan\QRCode\QRCode" not found
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:10:53 --> Error: Class "chillerlan\QRCode\QRCode" not found
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:01 --> Error: Class "chillerlan\QRCode\QRCode" not found
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:27 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-08 18:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:28 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-08 18:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:29 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-08 18:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:34 --> ErrorException: require_once(C:\xampp\htdocs\FullStack\app\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 5.
+ 1 APPPATH\Controllers\Pagamento.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\FullStack\\app\\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php', 5)
+ 2 APPPATH\Controllers\Pagamento.php(5): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:35 --> ErrorException: require_once(C:\xampp\htdocs\FullStack\app\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 5.
+ 1 APPPATH\Controllers\Pagamento.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\FullStack\\app\\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php', 5)
+ 2 APPPATH\Controllers\Pagamento.php(5): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:11:35 --> ErrorException: require_once(C:\xampp\htdocs\FullStack\app\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 5.
+ 1 APPPATH\Controllers\Pagamento.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\FullStack\\app\\Controllers/../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php', 5)
+ 2 APPPATH\Controllers\Pagamento.php(5): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:20:29 --> Error: Class "chillerlan\QRCode\QRCode" not found
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:30:29 --> ErrorException: Undefined variable $data
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 13.
+ 1 APPPATH\Controllers\Pagamento.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:32:43 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:33:02 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:33:06 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:33:25 --> Error: Call to a member function setData() on string
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:34:25 --> ParseError: Unclosed '(' does not match ']'
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:34:47 --> Error: Call to a member function setData() on string
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:35:43 --> Error: Call to a member function setData() on string
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:37:55 --> Error: Call to a member function setData() on string
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:38:18 --> Error: Call to a member function setData() on string
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:40:46 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: Pagamento]
+in APPPATH\Controllers\Pagamento.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\FullStack\\app\\Controllers\\Pagamento.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pagamento')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pagamento')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Pagamento', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:40:57 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\FullStack\app\Controllers\Pagamento.php on line 19
+[Method: GET, Route: Pagamento]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Pagamento.php(19): view('PagamentoView', 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBjbGFzcz0icXItc3ZnIHFyY29kZSIgdmlld0JveD0iMCAwIDMzIDMzIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+DQo8cGF0aCBjbGFzcz0icXItZGF0YSBsaWdodCBxcmNvZGUiIGZpbGw9IiNmZmYiIGQ9Ik0xNiA0IGgxIHYxIGgtMVogTTE3IDQgaDEgdjEgaC0xWiBNMTkgNCBoMSB2MSBoLTFaIE0xMyA1IGgxIHYxIGgtMVogTTE0IDUgaDEgdjEgaC0xWiBNMTkgNSBoMSB2MSBoLTFaIE0yMCA1IGgxIHYxIGgtMVogTTE2IDYgaDEgdjEgaC0xWiBNMTcgNiBoMSB2MSBoLTFaIE0xOSA2IGgxIHYxIGgtMVogTTIwIDYgaDEgdjEgaC0xWiBNMTMgNyBoMSB2MSBoLTFaIE0xNiA3IGgxIHYxIGgtMVogTTE3IDcgaDEgdjEgaC0xWiBNMTkgNyBoMSB2MSBoLTFaIE0yMCA3IGgxIHYxIGgtMVogTTEzIDggaDEgdjEgaC0xWiBNMTUgOCBoMSB2MSBoLTFaIE0xOCA4IGgxIHYxIGgtMVogTTE5IDggaDEgdjEgaC0xWiBNMTUgOSBoMSB2MSBoLTFaIE0xNiA5IGgxIHYxIGgtMVogTTE5IDkgaDEgdjEgaC0xWiBNMjAgOSBoMSB2MSBoLTFaIE0xNCAxMSBoMSB2MSBoLTFaIE0xNSAxMSBoMSB2MSBoLTFaIE0xOCAxMSBoMSB2MSBoLTFaIE0yMCAxMSBoMSB2MSBoLTFaIE0xNSAxMiBoMSB2MSBoLTFaIE0xNyAxMiBoMSB2MSBoLTFaIE0yMCAxMiBoMSB2MSBoLTFaIE05IDEzIGgxIHYxIGgtMVogTTEyIDEzIGgxIHYxIGgtMVogTTEzIDEzIGgxIHYxIGgtMVogTTE1IDEzIGgxIHYxIGgtMVogTTE2IDEzIGgxIHYxIGgtMVogTTE3IDEzIGgxIHYxIGgtMVogTTIwIDEzIGgxIHYxIGgtMVogTTIxIDEzIGgxIHYxIGgtMVogTTIyIDEzIGgxIHYxIGgtMVogTTI4IDEzIGgxIHYxIGgtMVogTTYgMTQgaDEgdjEgaC0xWiBNOCAxNCBoMSB2MSBoLTFaIE0xNCAxNCBoMSB2MSBoLTFaIE0xNyAxNCBoMSB2MSBoLTFaIE0xOCAxNCBoMSB2MSBoLTFaIE0yMCAxNCBoMSB2MSBoLTFaIE0yMSAxNCBoMSB2MSBoLTFaIE0yMyAxNCBoMSB2MSBoLTFaIE0yNiAxNCBoMSB2MSBoLTFaIE03IDE1IGgxIHYxIGgtMVogTTEyIDE1IGgxIHYxIGgtMVogTTEzIDE1IGgxIHYxIGgtMVogTTE2IDE1IGgxIHYxIGgtMVogTTE3IDE1IGgxIHYxIGgtMVogTTI0IDE1IGgxIHYxIGgtMVogTTI2IDE1IGgxIHYxIGgtMVogTTI3IDE1IGgxIHYxIGgtMVogTTUgMTYgaDEgdjEgaC0xWiBNNiAxNiBoMSB2MSBoLTFaIE0xMSAxNiBoMSB2MSBoLTFaIE0xMiAxNiBoMSB2MSBoLTFaIE0xNSAxNiBoMSB2MSBoLTFaIE0xNiAxNiBoMSB2MSBoLTFaIE0xOSAxNiBoMSB2MSBoLTFaIE0yMSAxNiBoMSB2MSBoLTFaIE0yNCAxNiBoMSB2MSBoLTFaIE0yNSAxNiBoMSB2MSBoLTFaIE0yNiAxNiBoMSB2MSBoLTFaIE0yNyAxNiBoMSB2MSBoLTFaIE02IDE3IGgxIHYxIGgtMVogTTcgMTcgaDEgdjEgaC0xWiBNMTUgMTcgaDEgdjEgaC0xWiBNMjAgMTcgaDEgdjEgaC0xWiBNMjEgMTcgaDEgdjEgaC0xWiBNMjIgMTcgaDEgdjEgaC0xWiBNMjQgMTcgaDEgdjEgaC0xWiBNMjUgMTcgaDEgdjEgaC0xWiBNMjYgMTcgaDEgdjEgaC0xWiBNMjggMTcgaDEgdjEgaC0xWiBNNSAxOCBoMSB2MSBoLTFaIE03IDE4IGgxIHYxIGgtMVogTTggMTggaDEgdjEgaC0xWiBNOSAxOCBoMSB2MSBoLTFaIE0xMSAxOCBoMSB2MSBoLTFaIE0xMiAxOCBoMSB2MSBoLTFaIE0xNCAxOCBoMSB2MSBoLTFaIE0xNSAxOCBoMSB2MSBoLTFaIE0xNiAxOCBoMSB2MSBoLTFaIE0yMSAxOCBoMSB2MSBoLTFaIE0yNiAxOCBoMSB2MSBoLTFaIE01IDE5IGgxIHYxIGgtMVogTTEzIDE5IGgxIHYxIGgtMVogTTE0IDE5IGgxIHYxIGgtMVogTTE1IDE5IGgxIHYxIGgtMVogTTIyIDE5IGgxIHYxIGgtMVogTTI0IDE5IGgxIHYxIGgtMVogTTI3IDE5IGgxIHYxIGgtMVogTTUgMjAgaDEgdjEgaC0xWiBNNyAyMCBoMSB2MSBoLTFaDQpNMTMgMjAgaDEgdjEgaC0xWiBNMTQgMjAgaDEgdjEgaC0xWiBNMTUgMjAgaDEgdjEgaC0xWiBNMTcgMjAgaDEgdjEgaC0xWiBNMjUgMjAgaDEgdjEgaC0xWiBNMjcgMjAgaDEgdjEgaC0xWiBNMjggMjAgaDEgdjEgaC0xWiBNMTMgMjEgaDEgdjEgaC0xWiBNMTUgMjEgaDEgdjEgaC0xWiBNMTYgMjEgaDEgdjEgaC0xWiBNMTcgMjEgaDEgdjEgaC0xWiBNMTggMjEgaDEgdjEgaC0xWiBNMjUgMjEgaDEgdjEgaC0xWiBNMjYgMjEgaDEgdjEgaC0xWiBNMjcgMjEgaDEgdjEgaC0xWiBNMjggMjEgaDEgdjEgaC0xWiBNMTMgMjIgaDEgdjEgaC0xWiBNMTUgMjIgaDEgdjEgaC0xWiBNMTkgMjIgaDEgdjEgaC0xWiBNMjUgMjIgaDEgdjEgaC0xWiBNMjYgMjIgaDEgdjEgaC0xWiBNMjcgMjIgaDEgdjEgaC0xWiBNMTMgMjMgaDEgdjEgaC0xWiBNMTQgMjMgaDEgdjEgaC0xWiBNMTYgMjMgaDEgdjEgaC0xWiBNMTcgMjMgaDEgdjEgaC0xWiBNMjUgMjMgaDEgdjEgaC0xWiBNMjYgMjMgaDEgdjEgaC0xWiBNMjcgMjMgaDEgdjEgaC0xWiBNMjggMjMgaDEgdjEgaC0xWiBNMTQgMjQgaDEgdjEgaC0xWiBNMTYgMjQgaDEgdjEgaC0xWiBNMTcgMjQgaDEgdjEgaC0xWiBNMTggMjQgaDEgdjEgaC0xWiBNMjUgMjQgaDEgdjEgaC0xWiBNMjcgMjQgaDEgdjEgaC0xWiBNMTMgMjUgaDEgdjEgaC0xWiBNMTUgMjUgaDEgdjEgaC0xWiBNMTggMjUgaDEgdjEgaC0xWiBNMTkgMjUgaDEgdjEgaC0xWiBNMjAgMjUgaDEgdjEgaC0xWiBNMjMgMjUgaDEgdjEgaC0xWiBNMjQgMjUgaDEgdjEgaC0xWiBNMjUgMjUgaDEgdjEgaC0xWiBNMjYgMjUgaDEgdjEgaC0xWiBNMTQgMjYgaDEgdjEgaC0xWiBNMTUgMjYgaDEgdjEgaC0xWiBNMTYgMjYgaDEgdjEgaC0xWiBNMTkgMjYgaDEgdjEgaC0xWiBNMjEgMjYgaDEgdjEgaC0xWiBNMjIgMjYgaDEgdjEgaC0xWiBNMjMgMjYgaDEgdjEgaC0xWiBNMjQgMjYgaDEgdjEgaC0xWiBNMjcgMjYgaDEgdjEgaC0xWiBNMTMgMjcgaDEgdjEgaC0xWiBNMTUgMjcgaDEgdjEgaC0xWiBNMTggMjcgaDEgdjEgaC0xWiBNMTkgMjcgaDEgdjEgaC0xWiBNMjUgMjcgaDEgdjEgaC0xWiBNMjYgMjcgaDEgdjEgaC0xWiBNMjcgMjcgaDEgdjEgaC0xWiBNMTQgMjggaDEgdjEgaC0xWiBNMTggMjggaDEgdjEgaC0xWiBNMTkgMjggaDEgdjEgaC0xWiBNMjEgMjggaDEgdjEgaC0xWiBNMjMgMjggaDEgdjEgaC0xWiBNMjQgMjggaDEgdjEgaC0xWiBNMjYgMjggaDEgdjEgaC0xWiBNMjcgMjggaDEgdjEgaC0xWiIvPg0KPHBhdGggY2xhc3M9InFyLWZpbmRlciBsaWdodCBxcmNvZGUiIGZpbGw9IiNmZmYiIGQ9Ik01IDUgaDEgdjEgaC0xWiBNNiA1IGgxIHYxIGgtMVogTTcgNSBoMSB2MSBoLTFaIE04IDUgaDEgdjEgaC0xWiBNOSA1IGgxIHYxIGgtMVogTTIzIDUgaDEgdjEgaC0xWiBNMjQgNSBoMSB2MSBoLTFaIE0yNSA1IGgxIHYxIGgtMVogTTI2IDUgaDEgdjEgaC0xWiBNMjcgNSBoMSB2MSBoLTFaIE01IDYgaDEgdjEgaC0xWiBNOSA2IGgxIHYxIGgtMVogTTIzIDYgaDEgdjEgaC0xWiBNMjcgNiBoMSB2MSBoLTFaIE01IDcgaDEgdjEgaC0xWiBNOSA3IGgxIHYxIGgtMVogTTIzIDcgaDEgdjEgaC0xWiBNMjcgNyBoMSB2MSBoLTFaIE01IDggaDEgdjEgaC0xWiBNOSA4IGgxIHYxIGgtMVogTTIzIDggaDEgdjEgaC0xWiBNMjcgOCBoMSB2MSBoLTFaIE01IDkgaDEgdjEgaC0xWiBNNiA5IGgxIHYxIGgtMVogTTcgOSBoMSB2MSBoLTFaIE04IDkgaDEgdjEgaC0xWiBNOSA5IGgxIHYxIGgtMVogTTIzIDkgaDEgdjEgaC0xWiBNMjQgOSBoMSB2MSBoLTFaIE0yNSA5IGgxIHYxIGgtMVogTTI2IDkgaDEgdjEgaC0xWiBNMjcgOSBoMSB2MSBoLTFaIE01IDIzIGgxIHYxIGgtMVogTTYgMjMgaDEgdjEgaC0xWiBNNyAyMyBoMSB2MSBoLTFaIE04IDIzIGgxIHYxIGgtMVogTTkgMjMgaDEgdjEgaC0xWiBNNSAyNCBoMSB2MSBoLTFaIE05IDI0IGgxIHYxIGgtMVogTTUgMjUgaDEgdjEgaC0xWiBNOSAyNSBoMSB2MSBoLTFaIE01IDI2IGgxIHYxIGgtMVogTTkgMjYgaDEgdjEgaC0xWiBNNSAyNyBoMSB2MSBoLTFaIE02IDI3IGgxIHYxIGgtMVogTTcgMjcgaDEgdjEgaC0xWiBNOCAyNyBoMSB2MSBoLTFaIE05IDI3IGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci1zZXBhcmF0b3IgbGlnaHQgcXJjb2RlIiBmaWxsPSIjZmZmIiBkPSJNMTEgNCBoMSB2MSBoLTFaIE0yMSA0IGgxIHYxIGgtMVogTTExIDUgaDEgdjEgaC0xWiBNMjEgNSBoMSB2MSBoLTFaIE0xMSA2IGgxIHYxIGgtMVogTTIxIDYgaDEgdjEgaC0xWiBNMTEgNyBoMSB2MSBoLTFaIE0yMSA3IGgxIHYxIGgtMVogTTExIDggaDEgdjEgaC0xWiBNMjEgOCBoMSB2MSBoLTFaIE0xMSA5IGgxIHYxIGgtMVogTTIxIDkgaDEgdjEgaC0xWiBNMTEgMTAgaDEgdjEgaC0xWiBNMjEgMTAgaDEgdjEgaC0xWiBNNCAxMSBoMSB2MSBoLTFaIE01IDExIGgxIHYxIGgtMVogTTYgMTEgaDEgdjEgaC0xWiBNNyAxMSBoMSB2MSBoLTFaIE04IDExIGgxIHYxIGgtMVogTTkgMTEgaDEgdjEgaC0xWiBNMTAgMTEgaDEgdjEgaC0xWiBNMTEgMTEgaDEgdjEgaC0xWiBNMjEgMTEgaDEgdjEgaC0xWiBNMjIgMTEgaDEgdjEgaC0xWiBNMjMgMTEgaDEgdjEgaC0xWiBNMjQgMTEgaDEgdjEgaC0xWiBNMjUgMTEgaDEgdjEgaC0xWiBNMjYgMTEgaDEgdjEgaC0xWiBNMjcgMTEgaDEgdjEgaC0xWiBNMjggMTEgaDEgdjEgaC0xWiBNNCAyMSBoMSB2MSBoLTFaIE01IDIxIGgxIHYxIGgtMVogTTYgMjEgaDEgdjEgaC0xWiBNNyAyMSBoMSB2MSBoLTFaIE04IDIxIGgxIHYxIGgtMVogTTkgMjEgaDEgdjEgaC0xWiBNMTAgMjEgaDEgdjEgaC0xWiBNMTEgMjEgaDEgdjEgaC0xWiBNMTEgMjIgaDEgdjEgaC0xWiBNMTEgMjMgaDEgdjEgaC0xWiBNMTEgMjQgaDEgdjEgaC0xWiBNMTEgMjUgaDEgdjEgaC0xWiBNMTEgMjYgaDEgdjEgaC0xWiBNMTEgMjcgaDEgdjEgaC0xWiBNMTEgMjggaDEgdjEgaC0xWiIvPg0KPHBhdGggY2xhc3M9InFyLWFsaWdubWVudCBsaWdodCBxcmNvZGUiIGZpbGw9IiNmZmYiIGQ9Ik0yMSAyMSBoMSB2MSBoLTFaIE0yMiAyMSBoMSB2MSBoLTFaIE0yMyAyMSBoMSB2MSBoLTFaIE0yMSAyMiBoMSB2MSBoLTFaIE0yMyAyMiBoMSB2MSBoLTFaIE0yMSAyMyBoMSB2MSBoLTFaIE0yMiAyMyBoMSB2MSBoLTFaIE0yMyAyMyBoMSB2MSBoLTFaIi8+DQo8cGF0aCBjbGFzcz0icXItdGltaW5nIGxpZ2h0IHFyY29kZSIgZmlsbD0iI2ZmZiIgZD0iTTEzIDEwIGgxIHYxIGgtMVogTTE1IDEwIGgxIHYxIGgtMVogTTE3IDEwIGgxIHYxIGgtMVogTTE5IDEwIGgxIHYxIGgtMVogTTEwIDEzIGgxIHYxIGgtMVogTTEwIDE1IGgxIHYxIGgtMVogTTEwIDE3IGgxIHYxIGgtMVogTTEwIDE5IGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci1mb3JtYXQgbGlnaHQgcXJjb2RlIiBmaWxsPSIjZmZmIiBkPSJNMTIgNCBoMSB2MSBoLTFaIE0xMiA1IGgxIHYxIGgtMVogTTEyIDYgaDEgdjEgaC0xWiBNMTIgOSBoMSB2MSBoLTFaIE0xMiAxMSBoMSB2MSBoLTFaIE02IDEyIGgxIHYxIGgtMVogTTcgMTIgaDEgdjEgaC0xWiBNOCAxMiBoMSB2MSBoLTFaIE0xMiAxMiBoMSB2MSBoLTFaIE0yMSAxMiBoMSB2MSBoLTFaIE0yMiAxMiBoMSB2MSBoLTFaIE0yMyAxMiBoMSB2MSBoLTFaIE0yNiAxMiBoMSB2MSBoLTFaIE0yNyAxMiBoMSB2MSBoLTFaIE0yOCAxMiBoMSB2MSBoLTFaIE0xMiAyNCBoMSB2MSBoLTFaIE0xMiAyNSBoMSB2MSBoLTFaIE0xMiAyNiBoMSB2MSBoLTFaIi8+DQo8cGF0aCBjbGFzcz0icXItcXVpZXR6b25lIGxpZ2h0IHFyY29kZSIgZmlsbD0iI2ZmZiIgZD0iTTAgMCBoMSB2MSBoLTFaIE0xIDAgaDEgdjEgaC0xWiBNMiAwIGgxIHYxIGgtMVogTTMgMCBoMSB2MSBoLTFaIE00IDAgaDEgdjEgaC0xWiBNNSAwIGgxIHYxIGgtMVogTTYgMCBoMSB2MSBoLTFaIE03IDAgaDEgdjEgaC0xWiBNOCAwIGgxIHYxIGgtMVogTTkgMCBoMSB2MSBoLTFaIE0xMCAwIGgxIHYxIGgtMVogTTExIDAgaDEgdjEgaC0xWiBNMTIgMCBoMSB2MSBoLTFaIE0xMyAwIGgxIHYxIGgtMVogTTE0IDAgaDEgdjEgaC0xWiBNMTUgMCBoMSB2MSBoLTFaIE0xNiAwIGgxIHYxIGgtMVogTTE3IDAgaDEgdjEgaC0xWiBNMTggMCBoMSB2MSBoLTFaIE0xOSAwIGgxIHYxIGgtMVogTTIwIDAgaDEgdjEgaC0xWiBNMjEgMCBoMSB2MSBoLTFaIE0yMiAwIGgxIHYxIGgtMVogTTIzIDAgaDEgdjEgaC0xWiBNMjQgMCBoMSB2MSBoLTFaIE0yNSAwIGgxIHYxIGgtMVogTTI2IDAgaDEgdjEgaC0xWiBNMjcgMCBoMSB2MSBoLTFaIE0yOCAwIGgxIHYxIGgtMVogTTI5IDAgaDEgdjEgaC0xWiBNMzAgMCBoMSB2MSBoLTFaIE0zMSAwIGgxIHYxIGgtMVogTTMyIDAgaDEgdjEgaC0xWiBNMCAxIGgxIHYxIGgtMVogTTEgMSBoMSB2MSBoLTFaIE0yIDEgaDEgdjEgaC0xWiBNMyAxIGgxIHYxIGgtMVogTTQgMSBoMSB2MSBoLTFaIE01IDEgaDEgdjEgaC0xWiBNNiAxIGgxIHYxIGgtMVogTTcgMSBoMSB2MSBoLTFaIE04IDEgaDEgdjEgaC0xWiBNOSAxIGgxIHYxIGgtMVogTTEwIDEgaDEgdjEgaC0xWiBNMTEgMSBoMSB2MSBoLTFaIE0xMiAxIGgxIHYxIGgtMVogTTEzIDEgaDEgdjEgaC0xWiBNMTQgMSBoMSB2MSBoLTFaIE0xNSAxIGgxIHYxIGgtMVogTTE2IDEgaDEgdjEgaC0xWiBNMTcgMSBoMSB2MSBoLTFaIE0xOCAxIGgxIHYxIGgtMVogTTE5IDEgaDEgdjEgaC0xWiBNMjAgMSBoMSB2MSBoLTFaIE0yMSAxIGgxIHYxIGgtMVogTTIyIDEgaDEgdjEgaC0xWiBNMjMgMSBoMSB2MSBoLTFaIE0yNCAxIGgxIHYxIGgtMVogTTI1IDEgaDEgdjEgaC0xWiBNMjYgMSBoMSB2MSBoLTFaIE0yNyAxIGgxIHYxIGgtMVogTTI4IDEgaDEgdjEgaC0xWiBNMjkgMSBoMSB2MSBoLTFaIE0zMCAxIGgxIHYxIGgtMVogTTMxIDEgaDEgdjEgaC0xWiBNMzIgMSBoMSB2MSBoLTFaIE0wIDIgaDEgdjEgaC0xWiBNMSAyIGgxIHYxIGgtMVogTTIgMiBoMSB2MSBoLTFaIE0zIDIgaDEgdjEgaC0xWiBNNCAyIGgxIHYxIGgtMVogTTUgMiBoMSB2MSBoLTFaIE02IDIgaDEgdjEgaC0xWiBNNyAyIGgxIHYxIGgtMVogTTggMiBoMSB2MSBoLTFaIE05IDIgaDEgdjEgaC0xWiBNMTAgMiBoMSB2MSBoLTFaIE0xMSAyIGgxIHYxIGgtMVogTTEyIDIgaDEgdjEgaC0xWiBNMTMgMiBoMSB2MSBoLTFaIE0xNCAyIGgxIHYxIGgtMVogTTE1IDIgaDEgdjEgaC0xWiBNMTYgMiBoMSB2MSBoLTFaIE0xNyAyIGgxIHYxIGgtMVogTTE4IDIgaDEgdjEgaC0xWiBNMTkgMiBoMSB2MSBoLTFaIE0yMCAyIGgxIHYxIGgtMVogTTIxIDIgaDEgdjEgaC0xWiBNMjIgMiBoMSB2MSBoLTFaIE0yMyAyIGgxIHYxIGgtMVogTTI0IDIgaDEgdjEgaC0xWiBNMjUgMiBoMSB2MSBoLTFaIE0yNiAyIGgxIHYxIGgtMVogTTI3IDIgaDEgdjEgaC0xWiBNMjggMiBoMSB2MSBoLTFaIE0yOSAyIGgxIHYxIGgtMVogTTMwIDIgaDEgdjEgaC0xWiBNMzEgMiBoMSB2MSBoLTFaIE0zMiAyIGgxIHYxIGgtMVogTTAgMyBoMSB2MSBoLTFaDQpNMSAzIGgxIHYxIGgtMVogTTIgMyBoMSB2MSBoLTFaIE0zIDMgaDEgdjEgaC0xWiBNNCAzIGgxIHYxIGgtMVogTTUgMyBoMSB2MSBoLTFaIE02IDMgaDEgdjEgaC0xWiBNNyAzIGgxIHYxIGgtMVogTTggMyBoMSB2MSBoLTFaIE05IDMgaDEgdjEgaC0xWiBNMTAgMyBoMSB2MSBoLTFaIE0xMSAzIGgxIHYxIGgtMVogTTEyIDMgaDEgdjEgaC0xWiBNMTMgMyBoMSB2MSBoLTFaIE0xNCAzIGgxIHYxIGgtMVogTTE1IDMgaDEgdjEgaC0xWiBNMTYgMyBoMSB2MSBoLTFaIE0xNyAzIGgxIHYxIGgtMVogTTE4IDMgaDEgdjEgaC0xWiBNMTkgMyBoMSB2MSBoLTFaIE0yMCAzIGgxIHYxIGgtMVogTTIxIDMgaDEgdjEgaC0xWiBNMjIgMyBoMSB2MSBoLTFaIE0yMyAzIGgxIHYxIGgtMVogTTI0IDMgaDEgdjEgaC0xWiBNMjUgMyBoMSB2MSBoLTFaIE0yNiAzIGgxIHYxIGgtMVogTTI3IDMgaDEgdjEgaC0xWiBNMjggMyBoMSB2MSBoLTFaIE0yOSAzIGgxIHYxIGgtMVogTTMwIDMgaDEgdjEgaC0xWiBNMzEgMyBoMSB2MSBoLTFaIE0zMiAzIGgxIHYxIGgtMVogTTAgNCBoMSB2MSBoLTFaIE0xIDQgaDEgdjEgaC0xWiBNMiA0IGgxIHYxIGgtMVogTTMgNCBoMSB2MSBoLTFaIE0yOSA0IGgxIHYxIGgtMVogTTMwIDQgaDEgdjEgaC0xWiBNMzEgNCBoMSB2MSBoLTFaIE0zMiA0IGgxIHYxIGgtMVogTTAgNSBoMSB2MSBoLTFaIE0xIDUgaDEgdjEgaC0xWiBNMiA1IGgxIHYxIGgtMVogTTMgNSBoMSB2MSBoLTFaIE0yOSA1IGgxIHYxIGgtMVogTTMwIDUgaDEgdjEgaC0xWiBNMzEgNSBoMSB2MSBoLTFaIE0zMiA1IGgxIHYxIGgtMVogTTAgNiBoMSB2MSBoLTFaIE0xIDYgaDEgdjEgaC0xWiBNMiA2IGgxIHYxIGgtMVogTTMgNiBoMSB2MSBoLTFaIE0yOSA2IGgxIHYxIGgtMVogTTMwIDYgaDEgdjEgaC0xWiBNMzEgNiBoMSB2MSBoLTFaIE0zMiA2IGgxIHYxIGgtMVogTTAgNyBoMSB2MSBoLTFaIE0xIDcgaDEgdjEgaC0xWiBNMiA3IGgxIHYxIGgtMVogTTMgNyBoMSB2MSBoLTFaIE0yOSA3IGgxIHYxIGgtMVogTTMwIDcgaDEgdjEgaC0xWiBNMzEgNyBoMSB2MSBoLTFaIE0zMiA3IGgxIHYxIGgtMVogTTAgOCBoMSB2MSBoLTFaIE0xIDggaDEgdjEgaC0xWiBNMiA4IGgxIHYxIGgtMVogTTMgOCBoMSB2MSBoLTFaIE0yOSA4IGgxIHYxIGgtMVogTTMwIDggaDEgdjEgaC0xWiBNMzEgOCBoMSB2MSBoLTFaIE0zMiA4IGgxIHYxIGgtMVogTTAgOSBoMSB2MSBoLTFaIE0xIDkgaDEgdjEgaC0xWiBNMiA5IGgxIHYxIGgtMVogTTMgOSBoMSB2MSBoLTFaIE0yOSA5IGgxIHYxIGgtMVogTTMwIDkgaDEgdjEgaC0xWiBNMzEgOSBoMSB2MSBoLTFaIE0zMiA5IGgxIHYxIGgtMVogTTAgMTAgaDEgdjEgaC0xWiBNMSAxMCBoMSB2MSBoLTFaIE0yIDEwIGgxIHYxIGgtMVogTTMgMTAgaDEgdjEgaC0xWiBNMjkgMTAgaDEgdjEgaC0xWiBNMzAgMTAgaDEgdjEgaC0xWiBNMzEgMTAgaDEgdjEgaC0xWiBNMzIgMTAgaDEgdjEgaC0xWiBNMCAxMSBoMSB2MSBoLTFaIE0xIDExIGgxIHYxIGgtMVogTTIgMTEgaDEgdjEgaC0xWiBNMyAxMSBoMSB2MSBoLTFaIE0yOSAxMSBoMSB2MSBoLTFaIE0zMCAxMSBoMSB2MSBoLTFaIE0zMSAxMSBoMSB2MSBoLTFaIE0zMiAxMSBoMSB2MSBoLTFaIE0wIDEyIGgxIHYxIGgtMVogTTEgMTIgaDEgdjEgaC0xWiBNMiAxMiBoMSB2MSBoLTFaIE0zIDEyIGgxIHYxIGgtMVoNCk0yOSAxMiBoMSB2MSBoLTFaIE0zMCAxMiBoMSB2MSBoLTFaIE0zMSAxMiBoMSB2MSBoLTFaIE0zMiAxMiBoMSB2MSBoLTFaIE0wIDEzIGgxIHYxIGgtMVogTTEgMTMgaDEgdjEgaC0xWiBNMiAxMyBoMSB2MSBoLTFaIE0zIDEzIGgxIHYxIGgtMVogTTI5IDEzIGgxIHYxIGgtMVogTTMwIDEzIGgxIHYxIGgtMVogTTMxIDEzIGgxIHYxIGgtMVogTTMyIDEzIGgxIHYxIGgtMVogTTAgMTQgaDEgdjEgaC0xWiBNMSAxNCBoMSB2MSBoLTFaIE0yIDE0IGgxIHYxIGgtMVogTTMgMTQgaDEgdjEgaC0xWiBNMjkgMTQgaDEgdjEgaC0xWiBNMzAgMTQgaDEgdjEgaC0xWiBNMzEgMTQgaDEgdjEgaC0xWiBNMzIgMTQgaDEgdjEgaC0xWiBNMCAxNSBoMSB2MSBoLTFaIE0xIDE1IGgxIHYxIGgtMVogTTIgMTUgaDEgdjEgaC0xWiBNMyAxNSBoMSB2MSBoLTFaIE0yOSAxNSBoMSB2MSBoLTFaIE0zMCAxNSBoMSB2MSBoLTFaIE0zMSAxNSBoMSB2MSBoLTFaIE0zMiAxNSBoMSB2MSBoLTFaIE0wIDE2IGgxIHYxIGgtMVogTTEgMTYgaDEgdjEgaC0xWiBNMiAxNiBoMSB2MSBoLTFaIE0zIDE2IGgxIHYxIGgtMVogTTI5IDE2IGgxIHYxIGgtMVogTTMwIDE2IGgxIHYxIGgtMVogTTMxIDE2IGgxIHYxIGgtMVogTTMyIDE2IGgxIHYxIGgtMVogTTAgMTcgaDEgdjEgaC0xWiBNMSAxNyBoMSB2MSBoLTFaIE0yIDE3IGgxIHYxIGgtMVogTTMgMTcgaDEgdjEgaC0xWiBNMjkgMTcgaDEgdjEgaC0xWiBNMzAgMTcgaDEgdjEgaC0xWiBNMzEgMTcgaDEgdjEgaC0xWiBNMzIgMTcgaDEgdjEgaC0xWiBNMCAxOCBoMSB2MSBoLTFaIE0xIDE4IGgxIHYxIGgtMVogTTIgMTggaDEgdjEgaC0xWiBNMyAxOCBoMSB2MSBoLTFaIE0yOSAxOCBoMSB2MSBoLTFaIE0zMCAxOCBoMSB2MSBoLTFaIE0zMSAxOCBoMSB2MSBoLTFaIE0zMiAxOCBoMSB2MSBoLTFaIE0wIDE5IGgxIHYxIGgtMVogTTEgMTkgaDEgdjEgaC0xWiBNMiAxOSBoMSB2MSBoLTFaIE0zIDE5IGgxIHYxIGgtMVogTTI5IDE5IGgxIHYxIGgtMVogTTMwIDE5IGgxIHYxIGgtMVogTTMxIDE5IGgxIHYxIGgtMVogTTMyIDE5IGgxIHYxIGgtMVogTTAgMjAgaDEgdjEgaC0xWiBNMSAyMCBoMSB2MSBoLTFaIE0yIDIwIGgxIHYxIGgtMVogTTMgMjAgaDEgdjEgaC0xWiBNMjkgMjAgaDEgdjEgaC0xWiBNMzAgMjAgaDEgdjEgaC0xWiBNMzEgMjAgaDEgdjEgaC0xWiBNMzIgMjAgaDEgdjEgaC0xWiBNMCAyMSBoMSB2MSBoLTFaIE0xIDIxIGgxIHYxIGgtMVogTTIgMjEgaDEgdjEgaC0xWiBNMyAyMSBoMSB2MSBoLTFaIE0yOSAyMSBoMSB2MSBoLTFaIE0zMCAyMSBoMSB2MSBoLTFaIE0zMSAyMSBoMSB2MSBoLTFaIE0zMiAyMSBoMSB2MSBoLTFaIE0wIDIyIGgxIHYxIGgtMVogTTEgMjIgaDEgdjEgaC0xWiBNMiAyMiBoMSB2MSBoLTFaIE0zIDIyIGgxIHYxIGgtMVogTTI5IDIyIGgxIHYxIGgtMVogTTMwIDIyIGgxIHYxIGgtMVogTTMxIDIyIGgxIHYxIGgtMVogTTMyIDIyIGgxIHYxIGgtMVogTTAgMjMgaDEgdjEgaC0xWiBNMSAyMyBoMSB2MSBoLTFaIE0yIDIzIGgxIHYxIGgtMVogTTMgMjMgaDEgdjEgaC0xWiBNMjkgMjMgaDEgdjEgaC0xWiBNMzAgMjMgaDEgdjEgaC0xWiBNMzEgMjMgaDEgdjEgaC0xWiBNMzIgMjMgaDEgdjEgaC0xWiBNMCAyNCBoMSB2MSBoLTFaIE0xIDI0IGgxIHYxIGgtMVogTTIgMjQgaDEgdjEgaC0xWiBNMyAyNCBoMSB2MSBoLTFaIE0yOSAyNCBoMSB2MSBoLTFaIE0zMCAyNCBoMSB2MSBoLTFaIE0zMSAyNCBoMSB2MSBoLTFaIE0zMiAyNCBoMSB2MSBoLTFaDQpNMCAyNSBoMSB2MSBoLTFaIE0xIDI1IGgxIHYxIGgtMVogTTIgMjUgaDEgdjEgaC0xWiBNMyAyNSBoMSB2MSBoLTFaIE0yOSAyNSBoMSB2MSBoLTFaIE0zMCAyNSBoMSB2MSBoLTFaIE0zMSAyNSBoMSB2MSBoLTFaIE0zMiAyNSBoMSB2MSBoLTFaIE0wIDI2IGgxIHYxIGgtMVogTTEgMjYgaDEgdjEgaC0xWiBNMiAyNiBoMSB2MSBoLTFaIE0zIDI2IGgxIHYxIGgtMVogTTI5IDI2IGgxIHYxIGgtMVogTTMwIDI2IGgxIHYxIGgtMVogTTMxIDI2IGgxIHYxIGgtMVogTTMyIDI2IGgxIHYxIGgtMVogTTAgMjcgaDEgdjEgaC0xWiBNMSAyNyBoMSB2MSBoLTFaIE0yIDI3IGgxIHYxIGgtMVogTTMgMjcgaDEgdjEgaC0xWiBNMjkgMjcgaDEgdjEgaC0xWiBNMzAgMjcgaDEgdjEgaC0xWiBNMzEgMjcgaDEgdjEgaC0xWiBNMzIgMjcgaDEgdjEgaC0xWiBNMCAyOCBoMSB2MSBoLTFaIE0xIDI4IGgxIHYxIGgtMVogTTIgMjggaDEgdjEgaC0xWiBNMyAyOCBoMSB2MSBoLTFaIE0yOSAyOCBoMSB2MSBoLTFaIE0zMCAyOCBoMSB2MSBoLTFaIE0zMSAyOCBoMSB2MSBoLTFaIE0zMiAyOCBoMSB2MSBoLTFaIE0wIDI5IGgxIHYxIGgtMVogTTEgMjkgaDEgdjEgaC0xWiBNMiAyOSBoMSB2MSBoLTFaIE0zIDI5IGgxIHYxIGgtMVogTTQgMjkgaDEgdjEgaC0xWiBNNSAyOSBoMSB2MSBoLTFaIE02IDI5IGgxIHYxIGgtMVogTTcgMjkgaDEgdjEgaC0xWiBNOCAyOSBoMSB2MSBoLTFaIE05IDI5IGgxIHYxIGgtMVogTTEwIDI5IGgxIHYxIGgtMVogTTExIDI5IGgxIHYxIGgtMVogTTEyIDI5IGgxIHYxIGgtMVogTTEzIDI5IGgxIHYxIGgtMVogTTE0IDI5IGgxIHYxIGgtMVogTTE1IDI5IGgxIHYxIGgtMVogTTE2IDI5IGgxIHYxIGgtMVogTTE3IDI5IGgxIHYxIGgtMVogTTE4IDI5IGgxIHYxIGgtMVogTTE5IDI5IGgxIHYxIGgtMVogTTIwIDI5IGgxIHYxIGgtMVogTTIxIDI5IGgxIHYxIGgtMVogTTIyIDI5IGgxIHYxIGgtMVogTTIzIDI5IGgxIHYxIGgtMVogTTI0IDI5IGgxIHYxIGgtMVogTTI1IDI5IGgxIHYxIGgtMVogTTI2IDI5IGgxIHYxIGgtMVogTTI3IDI5IGgxIHYxIGgtMVogTTI4IDI5IGgxIHYxIGgtMVogTTI5IDI5IGgxIHYxIGgtMVogTTMwIDI5IGgxIHYxIGgtMVogTTMxIDI5IGgxIHYxIGgtMVogTTMyIDI5IGgxIHYxIGgtMVogTTAgMzAgaDEgdjEgaC0xWiBNMSAzMCBoMSB2MSBoLTFaIE0yIDMwIGgxIHYxIGgtMVogTTMgMzAgaDEgdjEgaC0xWiBNNCAzMCBoMSB2MSBoLTFaIE01IDMwIGgxIHYxIGgtMVogTTYgMzAgaDEgdjEgaC0xWiBNNyAzMCBoMSB2MSBoLTFaIE04IDMwIGgxIHYxIGgtMVogTTkgMzAgaDEgdjEgaC0xWiBNMTAgMzAgaDEgdjEgaC0xWiBNMTEgMzAgaDEgdjEgaC0xWiBNMTIgMzAgaDEgdjEgaC0xWiBNMTMgMzAgaDEgdjEgaC0xWiBNMTQgMzAgaDEgdjEgaC0xWiBNMTUgMzAgaDEgdjEgaC0xWiBNMTYgMzAgaDEgdjEgaC0xWiBNMTcgMzAgaDEgdjEgaC0xWiBNMTggMzAgaDEgdjEgaC0xWiBNMTkgMzAgaDEgdjEgaC0xWiBNMjAgMzAgaDEgdjEgaC0xWiBNMjEgMzAgaDEgdjEgaC0xWiBNMjIgMzAgaDEgdjEgaC0xWiBNMjMgMzAgaDEgdjEgaC0xWiBNMjQgMzAgaDEgdjEgaC0xWiBNMjUgMzAgaDEgdjEgaC0xWiBNMjYgMzAgaDEgdjEgaC0xWiBNMjcgMzAgaDEgdjEgaC0xWiBNMjggMzAgaDEgdjEgaC0xWiBNMjkgMzAgaDEgdjEgaC0xWiBNMzAgMzAgaDEgdjEgaC0xWiBNMzEgMzAgaDEgdjEgaC0xWiBNMzIgMzAgaDEgdjEgaC0xWiBNMCAzMSBoMSB2MSBoLTFaIE0xIDMxIGgxIHYxIGgtMVoNCk0yIDMxIGgxIHYxIGgtMVogTTMgMzEgaDEgdjEgaC0xWiBNNCAzMSBoMSB2MSBoLTFaIE01IDMxIGgxIHYxIGgtMVogTTYgMzEgaDEgdjEgaC0xWiBNNyAzMSBoMSB2MSBoLTFaIE04IDMxIGgxIHYxIGgtMVogTTkgMzEgaDEgdjEgaC0xWiBNMTAgMzEgaDEgdjEgaC0xWiBNMTEgMzEgaDEgdjEgaC0xWiBNMTIgMzEgaDEgdjEgaC0xWiBNMTMgMzEgaDEgdjEgaC0xWiBNMTQgMzEgaDEgdjEgaC0xWiBNMTUgMzEgaDEgdjEgaC0xWiBNMTYgMzEgaDEgdjEgaC0xWiBNMTcgMzEgaDEgdjEgaC0xWiBNMTggMzEgaDEgdjEgaC0xWiBNMTkgMzEgaDEgdjEgaC0xWiBNMjAgMzEgaDEgdjEgaC0xWiBNMjEgMzEgaDEgdjEgaC0xWiBNMjIgMzEgaDEgdjEgaC0xWiBNMjMgMzEgaDEgdjEgaC0xWiBNMjQgMzEgaDEgdjEgaC0xWiBNMjUgMzEgaDEgdjEgaC0xWiBNMjYgMzEgaDEgdjEgaC0xWiBNMjcgMzEgaDEgdjEgaC0xWiBNMjggMzEgaDEgdjEgaC0xWiBNMjkgMzEgaDEgdjEgaC0xWiBNMzAgMzEgaDEgdjEgaC0xWiBNMzEgMzEgaDEgdjEgaC0xWiBNMzIgMzEgaDEgdjEgaC0xWiBNMCAzMiBoMSB2MSBoLTFaIE0xIDMyIGgxIHYxIGgtMVogTTIgMzIgaDEgdjEgaC0xWiBNMyAzMiBoMSB2MSBoLTFaIE00IDMyIGgxIHYxIGgtMVogTTUgMzIgaDEgdjEgaC0xWiBNNiAzMiBoMSB2MSBoLTFaIE03IDMyIGgxIHYxIGgtMVogTTggMzIgaDEgdjEgaC0xWiBNOSAzMiBoMSB2MSBoLTFaIE0xMCAzMiBoMSB2MSBoLTFaIE0xMSAzMiBoMSB2MSBoLTFaIE0xMiAzMiBoMSB2MSBoLTFaIE0xMyAzMiBoMSB2MSBoLTFaIE0xNCAzMiBoMSB2MSBoLTFaIE0xNSAzMiBoMSB2MSBoLTFaIE0xNiAzMiBoMSB2MSBoLTFaIE0xNyAzMiBoMSB2MSBoLTFaIE0xOCAzMiBoMSB2MSBoLTFaIE0xOSAzMiBoMSB2MSBoLTFaIE0yMCAzMiBoMSB2MSBoLTFaIE0yMSAzMiBoMSB2MSBoLTFaIE0yMiAzMiBoMSB2MSBoLTFaIE0yMyAzMiBoMSB2MSBoLTFaIE0yNCAzMiBoMSB2MSBoLTFaIE0yNSAzMiBoMSB2MSBoLTFaIE0yNiAzMiBoMSB2MSBoLTFaIE0yNyAzMiBoMSB2MSBoLTFaIE0yOCAzMiBoMSB2MSBoLTFaIE0yOSAzMiBoMSB2MSBoLTFaIE0zMCAzMiBoMSB2MSBoLTFaIE0zMSAzMiBoMSB2MSBoLTFaIE0zMiAzMiBoMSB2MSBoLTFaIi8+DQo8cGF0aCBjbGFzcz0icXItZGFya21vZHVsZSBkYXJrIHFyY29kZSIgZmlsbD0iIzAwMCIgZD0iTTEyIDIxIGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci1kYXRhLWRhcmsgZGFyayBxcmNvZGUiIGZpbGw9IiMwMDAiIGQ9Ik0xMyA0IGgxIHYxIGgtMVogTTE0IDQgaDEgdjEgaC0xWiBNMTUgNCBoMSB2MSBoLTFaIE0xOCA0IGgxIHYxIGgtMVogTTIwIDQgaDEgdjEgaC0xWiBNMTUgNSBoMSB2MSBoLTFaIE0xNiA1IGgxIHYxIGgtMVogTTE3IDUgaDEgdjEgaC0xWiBNMTggNSBoMSB2MSBoLTFaIE0xMyA2IGgxIHYxIGgtMVogTTE0IDYgaDEgdjEgaC0xWiBNMTUgNiBoMSB2MSBoLTFaIE0xOCA2IGgxIHYxIGgtMVogTTE0IDcgaDEgdjEgaC0xWiBNMTUgNyBoMSB2MSBoLTFaIE0xOCA3IGgxIHYxIGgtMVogTTE0IDggaDEgdjEgaC0xWiBNMTYgOCBoMSB2MSBoLTFaIE0xNyA4IGgxIHYxIGgtMVogTTIwIDggaDEgdjEgaC0xWiBNMTMgOSBoMSB2MSBoLTFaIE0xNCA5IGgxIHYxIGgtMVogTTE3IDkgaDEgdjEgaC0xWiBNMTggOSBoMSB2MSBoLTFaIE0xMyAxMSBoMSB2MSBoLTFaIE0xNiAxMSBoMSB2MSBoLTFaIE0xNyAxMSBoMSB2MSBoLTFaIE0xOSAxMSBoMSB2MSBoLTFaIE0xMyAxMiBoMSB2MSBoLTFaIE0xNCAxMiBoMSB2MSBoLTFaIE0xNiAxMiBoMSB2MSBoLTFaIE0xOCAxMiBoMSB2MSBoLTFaIE0xOSAxMiBoMSB2MSBoLTFaIE00IDEzIGgxIHYxIGgtMVogTTUgMTMgaDEgdjEgaC0xWiBNNiAxMyBoMSB2MSBoLTFaIE03IDEzIGgxIHYxIGgtMVogTTggMTMgaDEgdjEgaC0xWiBNMTEgMTMgaDEgdjEgaC0xWiBNMTQgMTMgaDEgdjEgaC0xWiBNMTggMTMgaDEgdjEgaC0xWiBNMTkgMTMgaDEgdjEgaC0xWiBNMjMgMTMgaDEgdjEgaC0xWiBNMjQgMTMgaDEgdjEgaC0xWiBNMjUgMTMgaDEgdjEgaC0xWiBNMjYgMTMgaDEgdjEgaC0xWiBNMjcgMTMgaDEgdjEgaC0xWiBNNCAxNCBoMSB2MSBoLTFaIE01IDE0IGgxIHYxIGgtMVogTTcgMTQgaDEgdjEgaC0xWiBNOSAxNCBoMSB2MSBoLTFaIE0xMSAxNCBoMSB2MSBoLTFaIE0xMiAxNCBoMSB2MSBoLTFaIE0xMyAxNCBoMSB2MSBoLTFaIE0xNSAxNCBoMSB2MSBoLTFaIE0xNiAxNCBoMSB2MSBoLTFaIE0xOSAxNCBoMSB2MSBoLTFaIE0yMiAxNCBoMSB2MSBoLTFaIE0yNCAxNCBoMSB2MSBoLTFaIE0yNSAxNCBoMSB2MSBoLTFaIE0yNyAxNCBoMSB2MSBoLTFaIE0yOCAxNCBoMSB2MSBoLTFaIE00IDE1IGgxIHYxIGgtMVogTTUgMTUgaDEgdjEgaC0xWiBNNiAxNSBoMSB2MSBoLTFaIE04IDE1IGgxIHYxIGgtMVogTTkgMTUgaDEgdjEgaC0xWiBNMTEgMTUgaDEgdjEgaC0xWiBNMTQgMTUgaDEgdjEgaC0xWiBNMTUgMTUgaDEgdjEgaC0xWiBNMTggMTUgaDEgdjEgaC0xWiBNMTkgMTUgaDEgdjEgaC0xWiBNMjAgMTUgaDEgdjEgaC0xWiBNMjEgMTUgaDEgdjEgaC0xWiBNMjIgMTUgaDEgdjEgaC0xWiBNMjMgMTUgaDEgdjEgaC0xWiBNMjUgMTUgaDEgdjEgaC0xWiBNMjggMTUgaDEgdjEgaC0xWiBNNCAxNiBoMSB2MSBoLTFaIE03IDE2IGgxIHYxIGgtMVogTTggMTYgaDEgdjEgaC0xWiBNOSAxNiBoMSB2MSBoLTFaIE0xMyAxNiBoMSB2MSBoLTFaIE0xNCAxNiBoMSB2MSBoLTFaIE0xNyAxNiBoMSB2MSBoLTFaIE0xOCAxNiBoMSB2MSBoLTFaIE0yMCAxNiBoMSB2MSBoLTFaIE0yMiAxNiBoMSB2MSBoLTFaIE0yMyAxNiBoMSB2MSBoLTFaIE0yOCAxNiBoMSB2MSBoLTFaIE00IDE3IGgxIHYxIGgtMVogTTUgMTcgaDEgdjEgaC0xWiBNOCAxNyBoMSB2MSBoLTFaIE05IDE3IGgxIHYxIGgtMVogTTExIDE3IGgxIHYxIGgtMVogTTEyIDE3IGgxIHYxIGgtMVogTTEzIDE3IGgxIHYxIGgtMVogTTE0IDE3IGgxIHYxIGgtMVogTTE2IDE3IGgxIHYxIGgtMVogTTE3IDE3IGgxIHYxIGgtMVoNCk0xOCAxNyBoMSB2MSBoLTFaIE0xOSAxNyBoMSB2MSBoLTFaIE0yMyAxNyBoMSB2MSBoLTFaIE0yNyAxNyBoMSB2MSBoLTFaIE00IDE4IGgxIHYxIGgtMVogTTYgMTggaDEgdjEgaC0xWiBNMTMgMTggaDEgdjEgaC0xWiBNMTcgMTggaDEgdjEgaC0xWiBNMTggMTggaDEgdjEgaC0xWiBNMTkgMTggaDEgdjEgaC0xWiBNMjAgMTggaDEgdjEgaC0xWiBNMjIgMTggaDEgdjEgaC0xWiBNMjMgMTggaDEgdjEgaC0xWiBNMjQgMTggaDEgdjEgaC0xWiBNMjUgMTggaDEgdjEgaC0xWiBNMjcgMTggaDEgdjEgaC0xWiBNMjggMTggaDEgdjEgaC0xWiBNNCAxOSBoMSB2MSBoLTFaIE02IDE5IGgxIHYxIGgtMVogTTcgMTkgaDEgdjEgaC0xWiBNOCAxOSBoMSB2MSBoLTFaIE05IDE5IGgxIHYxIGgtMVogTTExIDE5IGgxIHYxIGgtMVogTTEyIDE5IGgxIHYxIGgtMVogTTE2IDE5IGgxIHYxIGgtMVogTTE3IDE5IGgxIHYxIGgtMVogTTE4IDE5IGgxIHYxIGgtMVogTTE5IDE5IGgxIHYxIGgtMVogTTIwIDE5IGgxIHYxIGgtMVogTTIxIDE5IGgxIHYxIGgtMVogTTIzIDE5IGgxIHYxIGgtMVogTTI1IDE5IGgxIHYxIGgtMVogTTI2IDE5IGgxIHYxIGgtMVogTTI4IDE5IGgxIHYxIGgtMVogTTQgMjAgaDEgdjEgaC0xWiBNNiAyMCBoMSB2MSBoLTFaIE04IDIwIGgxIHYxIGgtMVogTTkgMjAgaDEgdjEgaC0xWiBNMTEgMjAgaDEgdjEgaC0xWiBNMTIgMjAgaDEgdjEgaC0xWiBNMTYgMjAgaDEgdjEgaC0xWiBNMTggMjAgaDEgdjEgaC0xWiBNMTkgMjAgaDEgdjEgaC0xWiBNMjYgMjAgaDEgdjEgaC0xWiBNMTQgMjEgaDEgdjEgaC0xWiBNMTkgMjEgaDEgdjEgaC0xWiBNMTQgMjIgaDEgdjEgaC0xWiBNMTYgMjIgaDEgdjEgaC0xWiBNMTcgMjIgaDEgdjEgaC0xWiBNMTggMjIgaDEgdjEgaC0xWiBNMjggMjIgaDEgdjEgaC0xWiBNMTUgMjMgaDEgdjEgaC0xWiBNMTggMjMgaDEgdjEgaC0xWiBNMTkgMjMgaDEgdjEgaC0xWiBNMTMgMjQgaDEgdjEgaC0xWiBNMTUgMjQgaDEgdjEgaC0xWiBNMTkgMjQgaDEgdjEgaC0xWiBNMjYgMjQgaDEgdjEgaC0xWiBNMjggMjQgaDEgdjEgaC0xWiBNMTQgMjUgaDEgdjEgaC0xWiBNMTYgMjUgaDEgdjEgaC0xWiBNMTcgMjUgaDEgdjEgaC0xWiBNMjEgMjUgaDEgdjEgaC0xWiBNMjIgMjUgaDEgdjEgaC0xWiBNMjcgMjUgaDEgdjEgaC0xWiBNMjggMjUgaDEgdjEgaC0xWiBNMTMgMjYgaDEgdjEgaC0xWiBNMTcgMjYgaDEgdjEgaC0xWiBNMTggMjYgaDEgdjEgaC0xWiBNMjAgMjYgaDEgdjEgaC0xWiBNMjUgMjYgaDEgdjEgaC0xWiBNMjYgMjYgaDEgdjEgaC0xWiBNMjggMjYgaDEgdjEgaC0xWiBNMTQgMjcgaDEgdjEgaC0xWiBNMTYgMjcgaDEgdjEgaC0xWiBNMTcgMjcgaDEgdjEgaC0xWiBNMjAgMjcgaDEgdjEgaC0xWiBNMjEgMjcgaDEgdjEgaC0xWiBNMjIgMjcgaDEgdjEgaC0xWiBNMjMgMjcgaDEgdjEgaC0xWiBNMjQgMjcgaDEgdjEgaC0xWiBNMjggMjcgaDEgdjEgaC0xWiBNMTMgMjggaDEgdjEgaC0xWiBNMTUgMjggaDEgdjEgaC0xWiBNMTYgMjggaDEgdjEgaC0xWiBNMTcgMjggaDEgdjEgaC0xWiBNMjAgMjggaDEgdjEgaC0xWiBNMjIgMjggaDEgdjEgaC0xWiBNMjUgMjggaDEgdjEgaC0xWiBNMjggMjggaDEgdjEgaC0xWiIvPg0KPHBhdGggY2xhc3M9InFyLWZpbmRlci1kYXJrIGRhcmsgcXJjb2RlIiBmaWxsPSIjMDAwIiBkPSJNNCA0IGgxIHYxIGgtMVogTTUgNCBoMSB2MSBoLTFaIE02IDQgaDEgdjEgaC0xWiBNNyA0IGgxIHYxIGgtMVogTTggNCBoMSB2MSBoLTFaIE05IDQgaDEgdjEgaC0xWiBNMTAgNCBoMSB2MSBoLTFaIE0yMiA0IGgxIHYxIGgtMVogTTIzIDQgaDEgdjEgaC0xWiBNMjQgNCBoMSB2MSBoLTFaIE0yNSA0IGgxIHYxIGgtMVogTTI2IDQgaDEgdjEgaC0xWiBNMjcgNCBoMSB2MSBoLTFaIE0yOCA0IGgxIHYxIGgtMVogTTQgNSBoMSB2MSBoLTFaIE0xMCA1IGgxIHYxIGgtMVogTTIyIDUgaDEgdjEgaC0xWiBNMjggNSBoMSB2MSBoLTFaIE00IDYgaDEgdjEgaC0xWiBNMTAgNiBoMSB2MSBoLTFaIE0yMiA2IGgxIHYxIGgtMVogTTI4IDYgaDEgdjEgaC0xWiBNNCA3IGgxIHYxIGgtMVogTTEwIDcgaDEgdjEgaC0xWiBNMjIgNyBoMSB2MSBoLTFaIE0yOCA3IGgxIHYxIGgtMVogTTQgOCBoMSB2MSBoLTFaIE0xMCA4IGgxIHYxIGgtMVogTTIyIDggaDEgdjEgaC0xWiBNMjggOCBoMSB2MSBoLTFaIE00IDkgaDEgdjEgaC0xWiBNMTAgOSBoMSB2MSBoLTFaIE0yMiA5IGgxIHYxIGgtMVogTTI4IDkgaDEgdjEgaC0xWiBNNCAxMCBoMSB2MSBoLTFaIE01IDEwIGgxIHYxIGgtMVogTTYgMTAgaDEgdjEgaC0xWiBNNyAxMCBoMSB2MSBoLTFaIE04IDEwIGgxIHYxIGgtMVogTTkgMTAgaDEgdjEgaC0xWiBNMTAgMTAgaDEgdjEgaC0xWiBNMjIgMTAgaDEgdjEgaC0xWiBNMjMgMTAgaDEgdjEgaC0xWiBNMjQgMTAgaDEgdjEgaC0xWiBNMjUgMTAgaDEgdjEgaC0xWiBNMjYgMTAgaDEgdjEgaC0xWiBNMjcgMTAgaDEgdjEgaC0xWiBNMjggMTAgaDEgdjEgaC0xWiBNNCAyMiBoMSB2MSBoLTFaIE01IDIyIGgxIHYxIGgtMVogTTYgMjIgaDEgdjEgaC0xWiBNNyAyMiBoMSB2MSBoLTFaIE04IDIyIGgxIHYxIGgtMVogTTkgMjIgaDEgdjEgaC0xWiBNMTAgMjIgaDEgdjEgaC0xWiBNNCAyMyBoMSB2MSBoLTFaIE0xMCAyMyBoMSB2MSBoLTFaIE00IDI0IGgxIHYxIGgtMVogTTEwIDI0IGgxIHYxIGgtMVogTTQgMjUgaDEgdjEgaC0xWiBNMTAgMjUgaDEgdjEgaC0xWiBNNCAyNiBoMSB2MSBoLTFaIE0xMCAyNiBoMSB2MSBoLTFaIE00IDI3IGgxIHYxIGgtMVogTTEwIDI3IGgxIHYxIGgtMVogTTQgMjggaDEgdjEgaC0xWiBNNSAyOCBoMSB2MSBoLTFaIE02IDI4IGgxIHYxIGgtMVogTTcgMjggaDEgdjEgaC0xWiBNOCAyOCBoMSB2MSBoLTFaIE05IDI4IGgxIHYxIGgtMVogTTEwIDI4IGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci1hbGlnbm1lbnQtZGFyayBkYXJrIHFyY29kZSIgZmlsbD0iIzAwMCIgZD0iTTIwIDIwIGgxIHYxIGgtMVogTTIxIDIwIGgxIHYxIGgtMVogTTIyIDIwIGgxIHYxIGgtMVogTTIzIDIwIGgxIHYxIGgtMVogTTI0IDIwIGgxIHYxIGgtMVogTTIwIDIxIGgxIHYxIGgtMVogTTI0IDIxIGgxIHYxIGgtMVogTTIwIDIyIGgxIHYxIGgtMVogTTIyIDIyIGgxIHYxIGgtMVogTTI0IDIyIGgxIHYxIGgtMVogTTIwIDIzIGgxIHYxIGgtMVogTTI0IDIzIGgxIHYxIGgtMVogTTIwIDI0IGgxIHYxIGgtMVogTTIxIDI0IGgxIHYxIGgtMVogTTIyIDI0IGgxIHYxIGgtMVogTTIzIDI0IGgxIHYxIGgtMVogTTI0IDI0IGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci10aW1pbmctZGFyayBkYXJrIHFyY29kZSIgZmlsbD0iIzAwMCIgZD0iTTEyIDEwIGgxIHYxIGgtMVogTTE0IDEwIGgxIHYxIGgtMVogTTE2IDEwIGgxIHYxIGgtMVogTTE4IDEwIGgxIHYxIGgtMVogTTIwIDEwIGgxIHYxIGgtMVogTTEwIDEyIGgxIHYxIGgtMVogTTEwIDE0IGgxIHYxIGgtMVogTTEwIDE2IGgxIHYxIGgtMVogTTEwIDE4IGgxIHYxIGgtMVogTTEwIDIwIGgxIHYxIGgtMVoiLz4NCjxwYXRoIGNsYXNzPSJxci1mb3JtYXQtZGFyayBkYXJrIHFyY29kZSIgZmlsbD0iIzAwMCIgZD0iTTEyIDcgaDEgdjEgaC0xWiBNMTIgOCBoMSB2MSBoLTFaIE00IDEyIGgxIHYxIGgtMVogTTUgMTIgaDEgdjEgaC0xWiBNOSAxMiBoMSB2MSBoLTFaIE0xMSAxMiBoMSB2MSBoLTFaIE0yNCAxMiBoMSB2MSBoLTFaIE0yNSAxMiBoMSB2MSBoLTFaIE0xMiAyMiBoMSB2MSBoLTFaIE0xMiAyMyBoMSB2MSBoLTFaIE0xMiAyNyBoMSB2MSBoLTFaIE0xMiAyOCBoMSB2MSBoLTFaIi8+DQo8cGF0aCBjbGFzcz0icXItZmluZGVyLWRvdCBkYXJrIHFyY29kZSIgZmlsbD0iIzAwMCIgZD0iTTYgNiBoMSB2MSBoLTFaIE03IDYgaDEgdjEgaC0xWiBNOCA2IGgxIHYxIGgtMVogTTI0IDYgaDEgdjEgaC0xWiBNMjUgNiBoMSB2MSBoLTFaIE0yNiA2IGgxIHYxIGgtMVogTTYgNyBoMSB2MSBoLTFaIE03IDcgaDEgdjEgaC0xWiBNOCA3IGgxIHYxIGgtMVogTTI0IDcgaDEgdjEgaC0xWiBNMjUgNyBoMSB2MSBoLTFaIE0yNiA3IGgxIHYxIGgtMVogTTYgOCBoMSB2MSBoLTFaIE03IDggaDEgdjEgaC0xWiBNOCA4IGgxIHYxIGgtMVogTTI0IDggaDEgdjEgaC0xWiBNMjUgOCBoMSB2MSBoLTFaIE0yNiA4IGgxIHYxIGgtMVogTTYgMjQgaDEgdjEgaC0xWiBNNyAyNCBoMSB2MSBoLTFaIE04IDI0IGgxIHYxIGgtMVogTTYgMjUgaDEgdjEgaC0xWiBNNyAyNSBoMSB2MSBoLTFaIE04IDI1IGgxIHYxIGgtMVogTTYgMjYgaDEgdjEgaC0xWiBNNyAyNiBoMSB2MSBoLTFaIE04IDI2IGgxIHYxIGgtMVoiLz4NCjwvc3ZnPg0K')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:41:56 --> ErrorException: Undefined variable $infoPaginated
+[Method: GET, Route: Pagamento]
+in APPPATH\Views\PagamentoView.php on line 1.
+ 1 APPPATH\Views\PagamentoView.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $infoPaginated', 'C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PagamentoView', [], true)
+ 5 APPPATH\Controllers\Pagamento.php(19): view('PagamentoView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:43:17 --> ErrorException: Undefined variable $data
+[Method: GET, Route: Pagamento]
+in APPPATH\Views\PagamentoView.php on line 1.
+ 1 APPPATH\Views\PagamentoView.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PagamentoView', [], true)
+ 5 APPPATH\Controllers\Pagamento.php(19): view('PagamentoView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 18:43:50 --> ErrorException: Undefined variable $qrcode
+[Method: GET, Route: Pagamento]
+in APPPATH\Views\PagamentoView.php on line 1.
+ 1 APPPATH\Views\PagamentoView.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrcode', 'C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\FullStack\\app\\Views\\PagamentoView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PagamentoView', [], true)
+ 5 APPPATH\Controllers\Pagamento.php(19): view('PagamentoView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagamento->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagamento))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 18:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 18:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-08 19:31:41 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: Pagamento]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-08 19:32:32 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-08 19:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-08 19:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
