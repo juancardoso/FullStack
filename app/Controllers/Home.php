@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\UserDataModel;
 
 class Home extends BaseController
 {
@@ -8,4 +9,4 @@ class Home extends BaseController
     {
         return view('HomeView');
     }
-}
+} 

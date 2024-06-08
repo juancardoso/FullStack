@@ -21,8 +21,10 @@ class UserDataModel extends Model {
   public function login($email, $password)
   {
     $query = $this->db->query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$password'");
-    
-    return $query->getNumRows() == 1;
+    if($query->getNumRows() == 1){
+      return $query->getRow()->id;
+    }
+    return 0;
   }
 
   public function cadastrar($nome, $email, $password) {
@@ -37,5 +39,24 @@ class UserDataModel extends Model {
       }
       
       return true;
+  }
+
+  public function assistir($videoId, $user) {
+    $query = "INSERT INTO aulasAssistidas (idAula,idAluno) VALUES ('$videoId', '$user')";
+
+    $this->db->query($query);
+  }
+
+  public function aulasAssistidas($user) {
+    $query = "SELECT * FROM aulasAssistidas where idAluno = '$user'";
+
+
+    $result = [];
+    $i = 0;
+    foreach ($this->db->query($query)->getResult() as $row){
+      $result[$i] = $row;
+      $i++;
+    }
+    return $result;
   }
 }
