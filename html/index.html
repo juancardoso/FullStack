@@ -1,18 +1,27 @@
 <body class="body-login">
   <link rel="stylesheet" href="styles.css">
-  <form class="form-login">
+  <form class="form-login" action="index-form.php" method="post">
       <div>
           <img width="100%" src="FacensPlay.JPG">
       </div>
       <h3>Login</h3>
 
       <label for="username">Username</label>
-      <input class="input-login" type="text" placeholder="Email or Phone" id="username">
+      <input name="email" class="input-login" type="text" placeholder="Email or Phone" id="username">
 
       <label for="password">Password</label>
-      <input class="input-login" type="password" placeholder="Password" id="password">
+      <input name="password" class="input-login" type="password" placeholder="Password" id="password">
 
       <button>Entrar</button>
+      <button type="button" id="cadastroButton">Cadastrar</button>
   </form>
+
 </body>
 </html>
+
+
+<script>
+    document.getElementById("cadastroButton").onclick = function () {
+        location.href = "cadastro.php";
+    };
+</script>
