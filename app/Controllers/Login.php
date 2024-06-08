@@ -18,7 +18,9 @@ class Login extends BaseController
         $email = $this->request->getPostGet('email');
         $password = $this->request->getPostGet('password');
 
-        if($model->login($email, $password)) {
+        $userid = $model->login($email, $password);
+        if($userid > 0) {
+            $this->setUserSession($userid);
             return redirect()->route("Home"); 
         } else {
             echo '
@@ -29,7 +31,12 @@ class Login extends BaseController
         }
     }
 
-    public function Cadastrar() {
+    private function setUserSession($userid) {
+		$data = [
+			'user_id' => $userid,
+			'isLoggedIn' => true
+		];
 
-    }
+		session()->set($data);
+	}
 }
