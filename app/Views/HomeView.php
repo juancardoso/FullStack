@@ -12,11 +12,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url() ?>public/js/home.js"></script>
+    <script>
+      function redirectToHome(){
+        window.location.href="<?php echo base_url()?>Home"
+      }  
+
+      function redirectToPayment(){
+        window.location.href="<?php echo base_url()?>Pagamento"
+      }  
+    </script>
 </head>
 <body style="margin: 0;">
 <div class="header">
-  <img class="center-block" style="width: 337px;" src="<?php echo base_url() ?>public/images/FacensPlay.JPG" />
-    <input class="search-input center-block"/>
+  <img class="center-block" style="width: 337px;" src="<?php echo base_url() ?>public/images/FacensPlay.JPG" onclick="redirectToHome()" />
+  <input class="search-input center-block" style="cursor: pointer; background: url('<?php echo base_url() ?>public/images/search.svg') no-repeat right"/>
+  <img class="center-block" width="30px" src="<?php echo base_url() ?>public/images/money.svg" onclick="redirectToPayment()">
   <img class="center-block" width="30px" src="<?php echo base_url() ?>public/images/profile.svg">
   </div>
 </div>

@@ -2,17 +2,16 @@
 
 namespace App\Controllers;
 
+use chillerlan\QRCode\{QRCode, QROptions};
+
 class Pagamento extends BaseController
 {
     public function index(): string
     {
-
         $url = 'https://facens.br/';
-        $qrcode = (new QRCode)->render($data);
+        $qrcode = (new QRCode)->render($url);
 
-        echo "<img src='$qrcode' width='200' height='200' >";
-        
-        die();
-        return view('PagamentoView');
+        $data['qrCode'] = $qrcode;
+        return view('PagamentoView', $data);
     }
 }
