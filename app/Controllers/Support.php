@@ -9,16 +9,21 @@ class Support extends BaseController
 {
     public function index()
     {
-        return view('SupportView');
+        $model = new UserDataModel();
+        $user = session()->get("user_id");
+        $tickets = $model->getMyTickets($user);
+
+        return view('SupportView', ['tickets' => $tickets]);
     }
 
     public function cadastrarTicket() {
         $model = new UserDataModel();
         $user = session()->get("user_id");
+        $titulo = $this->request->getPostGet('titulo');
         $descricao = $this->request->getPostGet('descricao');
 
         
-        if($model->insertNewTicket($user, $descricao) == 0) {
+        if($model->insertNewTicket($user, $titulo, $descricao) == 0) {
             $homePage = base_url()."Home";
             echo "
             <script>

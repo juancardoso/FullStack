@@ -11,10 +11,6 @@ class Usuario extends BaseController
     }
 
     public function listarUsuarios() {
-        if (!session()->has('user_id')) {
-            return redirect()->to('/login'); 
-        }
-
         $model = new UserDataModel();
         $usuarios = $model->listarTodosUsuarios();
 
