@@ -6,6 +6,7 @@ function montaRow(row){
     const table = document.getElementById('table')
 
     let tr = document.createElement('tr')
+    tr.setAttribute("scope","row")
     let tdAula = document.createElement('td')
     let tdVisualizacoes = document.createElement('td')
 
