@@ -9,14 +9,10 @@ class AulasMaisAssistidas extends BaseController
     
     public function index(): string
     {
-        return view('AulasMaisAssistidasView');
-    }
-    
-    
-    public function buscar(): string
-    {
         $model = new UserDataModel();
-        print_r(json_encode($model->aulasMaisAssistidas()));
-        die();
+        $data['aulas'] = $model->aulasMaisAssistidas();
+        
+        return view('AulasMaisAssistidasView', $data);
     }
+
 }

@@ -32,6 +32,10 @@
       function redirectToSupport() {
         window.location.href = "<?php echo base_url() ?>Support";
       }
+
+      function redirectToQuantity() {
+        window.location.href = "<?php echo base_url() ?>Aula/aulasMaisAssistidas";
+      }
     </script>
 </head>
 <body style="margin: 0;">
@@ -40,6 +44,7 @@
     <input class="search-input center-block" style="cursor: pointer; background: url('<?php echo base_url() ?>public/images/search.svg') no-repeat right"/>
     <img class="center-block button-header pointer" width="30px" src="<?php echo base_url() ?>public/images/money.svg" onclick="redirectToPayment()">
     <img class="center-block button-header pointer" width="30px" src="<?php echo base_url() ?>public/images/user-solid.svg" onclick="redirectToUsers()">
+    <img class="center-block button-header pointer" width="30px" src="<?php echo base_url() ?>public/images/ranking-star-solid.svg" onclick="redirectToQuantity()">
     <img class="center-block button-header pointer" width="30px" src="<?php echo base_url() ?>public/images/support.svg" onclick="redirectToSupport()">
     <img class="center-block button-header pointer" width="30px" src="<?php echo base_url() ?>public/images/logout.svg" onclick="redirectToLogout()">
   </div>

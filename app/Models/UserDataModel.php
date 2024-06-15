@@ -27,6 +27,14 @@ use CodeIgniter\Model;
 //   data TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 //   );
 
+// CREATE TABLE aulas (
+//   idAula INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+//   descricao VARCHAR(255) NOT NULL,
+//   link  VARCHAR(255) NOT NULL
+//   data TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+//   );
+
+
 class UserDataModel extends Model {
   protected $table = 'users';
   protected $allowedFields = ['id', 'nome', 'email', 'senha', 'reg_date'];
@@ -84,17 +92,29 @@ class UserDataModel extends Model {
     return $result;
   }
   
-  public function aulasMaisAssistidas() {
-    $query = "SELECT count(idAula) as visualizacoes, idAula FROM aulasAssistidas group by idAula order by 1 desc";
+  public function aulasMaisAssistidas()
+  {
+    $query = $this->db->query("
+    SELECT 
+        aa.idAula, 
+        COUNT(aa.idAula) as visualizacoes, 
+        a.descricao 
+    FROM 
+        aulasAssistidas aa
+    JOIN 
+        aulas a ON aa.idAula = a.idAula
+    WHERE 
+        a.descricao IS NOT NULL AND a.descricao != ''
+    GROUP BY 
+        aa.idAula, a.descricao
+    ORDER BY 
+        visualizacoes DESC
+");
 
-    $result = [];
-    $i = 0;
-    foreach ($this->db->query($query)->getResult() as $row){
-      $result[$i] = $row;
-      $i++;
-    }
-    return $result;
+return $query->getResult();
   }
+
+
 
   public function insertNewTicket($idAluno, $descricao) {
     if(strlen($descricao) > 255) return -1;
