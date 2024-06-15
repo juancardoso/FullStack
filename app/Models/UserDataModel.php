@@ -23,6 +23,7 @@ use CodeIgniter\Model;
 // CREATE TABLE supporttickets (
 //   idTicket INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 //   idAluno INT(11) NOT NULL,
+//   titulo VARCHAR(255) NOT NULL,
 //   descricao VARCHAR(255) NOT NULL,
 //   data TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 //   );
@@ -96,14 +97,28 @@ class UserDataModel extends Model {
     return $result;
   }
 
-  public function insertNewTicket($idAluno, $descricao) {
+  public function insertNewTicket($idAluno, $titulo, $descricao) {
     if(strlen($descricao) > 255) return -1;
 
-    $query = "INSERT INTO supporttickets (idAluno, descricao) VALUES ('$idAluno', '$descricao')";
+    $query = "INSERT INTO supporttickets (idAluno, titulo, descricao) VALUES ('$idAluno', '$titulo', '$descricao')";
 
     $this->db->query($query);
 
     return 0;
+  }
+
+  public function getMyTickets($idAluno) {
+    $query = "SELECT * FROM supporttickets where idAluno = $idAluno";
+    $queryResp = $this->db->query($query);
+    
+    $result = [];
+    $i = 0;
+    foreach ($queryResp->getResult() as $row) {
+        $result[$i] = $row;
+        $i++;
+    }
+
+    return $result;
   }
 
 }
