@@ -31,6 +31,11 @@ class Login extends BaseController
         }
     }
 
+    public function Deslogar() {
+        $this->unsetUserSession();
+        return redirect()->route("Login"); 
+    }
+
     private function setUserSession($userid) {
 		$data = [
 			'user_id' => $userid,
@@ -39,4 +44,8 @@ class Login extends BaseController
 
 		session()->set($data);
 	}
+
+    private function unsetUserSession() {
+        session()->destroy();
+    }
 }
