@@ -66,4 +66,15 @@ class UserDataModel extends Model {
     }
     return $result;
   }
+
+  public function listarTodosUsuarios() {
+    $query = $this->db->query("SELECT * FROM usuarios");
+    $result = [];
+    $i = 0;
+    foreach ($query->getResult() as $row) {
+        $result[$i] = $row;
+        $i++;
+    }
+    return $result;
+  }
 }

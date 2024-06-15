@@ -13,3 +13,5 @@ $routes->get('Home', 'Home::index',['filter' => 'AuthFilter']);
 $routes->post('/Aula/assistir','Aula::assistir');
 $routes->post('/Aula/aulasAssistidas','Aula::aulasAssistidas');
 $routes->get('Pagamento', 'Pagamento::index');
+$routes->get('listar-usuarios', 'Usuario::listarUsuarios');
+
