@@ -5,8 +5,11 @@ function markAsWatched(videoId,sendRequest = true) {
     button.classList.add('none');
     var button = document.querySelector('#watched' + videoId);
     button.classList.remove('none');
+
+    $("#watchText" + videoId).text("Video Assistido!");
     
-    if(sendRequest){
+    
+    if(sendRequest) {
         alert('Parabéns, aula ' + videoId + ' - Concluída!');
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "/FullStack/Aula/assistir");

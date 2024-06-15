@@ -16,3 +16,4 @@ $routes->post('/Aula/aulasAssistidas','Aula::aulasAssistidas');
 $routes->get('/Aula/aulasMaisAssistidas','AulasMaisAssistidas::index');
 $routes->get('/Aula/aulasMaisAssistidas/buscar','AulasMaisAssistidas::buscar');
 $routes->get('Pagamento', 'Pagamento::index', ['filter' => 'AuthFilter']);
+$routes->get('Support', 'Support::index', ['filter' => 'AuthFilter']);
