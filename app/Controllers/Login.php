@@ -23,11 +23,12 @@ class Login extends BaseController
             $this->setUserSession($userid);
             return redirect()->route("Home"); 
         } else {
-            echo '
+            $base_url = base_url();
+            echo "
             <script>
-                alert("Usuário ou senha incorretos!"); 
-                window.location.href = "index.php";
-            </script>';
+                alert('Usuário ou senha incorretos!'); 
+                window.location.href = '$base_url';
+            </script>";
         }
     }
 
