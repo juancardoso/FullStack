@@ -9,11 +9,16 @@
     <?php include 'header.php' ?>
     <div class="content">
       <div id="header"></div>
-        <table id="table" class="table table-light">
-          <tr scope="col">
-            <th>ID da Aula</th>
-            <th>Quantidade de visualizações</th>
-          </tr>
+        <table id="table" class="table table-sm table-hover table-striped table-bordered">
+          <thead>
+            <tr scope="col">
+              <th>ID da Aula</th>
+              <th>Quantidade de visualizações</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+
+          </tbody>
         </table>
     </div>
 </body>
