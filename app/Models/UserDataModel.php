@@ -20,6 +20,12 @@ use CodeIgniter\Model;
 //     CURRENT_TIMESTAMP
 //     );
     
+// CREATE TABLE supporttickets (
+//   idTicket INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+//   idAluno INT(11) NOT NULL,
+//   descricao VARCHAR(255) NOT NULL,
+//   data TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+//   );
 
 class UserDataModel extends Model {
   protected $table = 'users';
@@ -88,6 +94,16 @@ class UserDataModel extends Model {
       $i++;
     }
     return $result;
+  }
+
+  public function insertNewTicket($idAluno, $descricao) {
+    if(strlen($descricao) > 255) return -1;
+
+    $query = "INSERT INTO supporttickets (idAluno, descricao) VALUES ('$idAluno', '$descricao')";
+
+    $this->db->query($query);
+
+    return 0;
   }
 
 }

@@ -16,3 +16,5 @@ $routes->get('/Aula/aulasMaisAssistidas/buscar','AulasMaisAssistidas::buscar');
 $routes->get('Pagamento', 'Pagamento::index', ['filter' => 'AuthFilter']);
 $routes->get('listar-usuarios', 'Usuario::listarUsuarios');
 $routes->get('Support', 'Support::index', ['filter' => 'AuthFilter']);
+$routes->post('/Support/Cadastrar','Support::cadastrarTicket', ['filter' => 'AuthFilter']);
+
