@@ -21,6 +21,7 @@
         <table class="table table-bordered table-hover">
             <thead class="thead-light">
                 <tr>
+                    <th>ID Ticket</th>
                     <th>Titulo</th>
                     <th>Descrição</th>
                 </tr>
@@ -28,6 +29,7 @@
             <tbody>
                 <?php foreach ($tickets as $ticket): ?>
                     <tr>
+                        <td><?php echo $ticket->idTicket; ?></td>
                         <td><?php echo $ticket->titulo; ?></td>
                         <td><?php echo $ticket->descricao; ?></td>
                     </tr>
