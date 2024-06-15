@@ -22,6 +22,10 @@
       function redirectToLogout() {
         window.location.href="<?php echo base_url()?>Logout"
       }
+
+      function redirectToUsers() {
+        window.location.href="<?php echo base_url()?>listar-usuarios"
+      }
     </script>
 </head>
 <body style="margin: 0;">
@@ -29,7 +33,7 @@
   <img class="center-block" style="width: 337px; cursor: pointer;" src="<?php echo base_url() ?>public/images/FacensPlay.JPG" onclick="redirectToHome()" />
   <input class="search-input center-block" style="cursor: pointer; background: url('<?php echo base_url() ?>public/images/search.svg') no-repeat right"/>
   <img class="center-block" width="30px" style="cursor: pointer;" src="<?php echo base_url() ?>public/images/money.svg" onclick="redirectToPayment()">
-  <img class="center-block" width="30px" src="<?php echo base_url() ?>public/images/profile.svg">
+  <img class="center-block" width="30px" src="<?php echo base_url() ?>public/images/profile.svg"  onclick="redirectToUsers()">
   <img class="center-block" width="30px" style="cursor: pointer;" src="<?php echo base_url() ?>public/images/logout.svg" onclick="redirectToLogout()">
   </div>
 </div>
