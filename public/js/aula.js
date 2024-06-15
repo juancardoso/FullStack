@@ -3,9 +3,10 @@ let buscou = false
 buscarAulasMaisAssistidas()
 
 function montaRow(row){
-    const table = document.getElementById('table')
+    const table = document.getElementById('tbody')
 
     let tr = document.createElement('tr')
+    tr.setAttribute("scope","row")
     let tdAula = document.createElement('td')
     let tdVisualizacoes = document.createElement('td')
 
