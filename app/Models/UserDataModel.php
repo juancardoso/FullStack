@@ -66,4 +66,18 @@ class UserDataModel extends Model {
     }
     return $result;
   }
+  
+  public function aulasMaisAssistidas() {
+    $query = "SELECT count(idAula) as visualizacoes, idAula FROM aulasAssistidas group by idAula order by 1 desc";
+
+    $result = [];
+    $i = 0;
+    foreach ($this->db->query($query)->getResult() as $row){
+      $result[$i] = $row;
+      $i++;
+    }
+    return $result;
+  }
+
 }
+
